@@ -14,6 +14,7 @@ public class Practice5 {
 // }
 
 
+
 // /*[문제 2] for문을 사용하여 10부터 1까지의 숫자를 역순으로 출력하는 프로그램을 작성하시오.*/
 
 // int i = 10; 
@@ -23,6 +24,7 @@ public class Practice5 {
 //     i--;
 // } while (i >= 1);
 
+
 /*[문제 3] for문을 사용하여 1부터 50까지 모든 정수의 합계를 구하여 최종 결과를 출력하시오., 출력 예시: 1부터 50까지의 합계: 1275*/
 
 // int sum1= 0;
@@ -31,11 +33,14 @@ public class Practice5 {
 // }System.out.println(sum1);
 
 
-// int i=0;
-// // do { 
-// //     System.out.println(sum);
-// //     sum +=i;
-// // }while(i>=50);
+
+    // int sum=0;
+    // int i = 1;
+    // do { 
+    //     sum +=i;
+    //     i++;
+    // }while(i<=50);
+    // System.out.println(sum);
 
 // int sum2=0;
 
@@ -209,31 +214,31 @@ Scanner로 메뉴 번호를 입력받습니다.
 4번을 선택하면 "프로그램을 종료합니다." 메시지를 출력하고 break를 이용해 무한루프를 탈출합니다.
 초기 잔고는 0으로 시작합니다.*/
 
-Scanner scan =new Scanner(System.in);
+// Scanner scan =new Scanner(System.in);
 
-int balance =0;
-for(;;){
-    System.out.println("---------------------------------");
-    System.out.println("1:입금 | 2:출금 | 3:잔고 | 4:종료");
-    System.out.println("---------------------------------");
+// int balance =0;
+// for(;;){
+//     System.out.println("---------------------------------");
+//     System.out.println("1:입금 | 2:출금 | 3:잔고 | 4:종료");
+//     System.out.println("---------------------------------");
 
-    System.out.print("선택>");
-    int a = scan.nextInt();
+//     System.out.print("선택>");
+//     int a = scan.nextInt();
 
-    if(a==1){
-        System.out.print("입금액>");
-        int b = scan.nextInt();
-        balance += b;}
-    else if(a==2){ 
-        System.out.print("출금액>");
-        int c = scan.nextInt();
-        if(balance < c){System.out.println("잔고가 부족합니다.");}
-        else{balance -= c;} }
-    else if(a==3){
-        System.out.print("잔고>");
-        System.out.println(balance);}
-    else if(a==4){System.out.println("프로그램을 종료합니다."); break;}
-}
+//     if(a==1){
+//         System.out.print("입금액>");
+//         int b = scan.nextInt();
+//         balance += b;}
+//     else if(a==2){ 
+//         System.out.print("출금액>");
+//         int c = scan.nextInt();
+//         if(balance < c){System.out.println("잔고가 부족합니다.");}
+//         else{balance -= c;} }
+//     else if(a==3){
+//         System.out.print("잔고>");
+//         System.out.println(balance);}
+//     else if(a==4){System.out.println("프로그램을 종료합니다."); break;}
+// }
 
 
 

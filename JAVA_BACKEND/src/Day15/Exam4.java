@@ -4,8 +4,6 @@ import java.util.Scanner;
 import java.awt.*;
 import java.time.LocalTime;
 
-import com.mysql.cj.protocol.ExportControlled;
-
 public class Exam4 {
     public static void main(String[] args) {
         // [1] 시계 구현
@@ -62,6 +60,9 @@ class 타이머스레드 extends Thread{
         }
     }   // run 종료되면 작업스레드 종료
 }
+
+
+
 
 
 // [1]. 자바 프로젝트로 깃 저장소 생성시 bin 폴더제외 해야함. * ignore 

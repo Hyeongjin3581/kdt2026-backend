@@ -29,6 +29,7 @@ public class Exam {
             System.out.println("Hello world!");     // JS의 console.log()와 동일한 기능. 
         } 
         // [3] ;(세미콜론) : 코드의 한문장이 끝났다는 뜻, 해당 기준으로 컴파일 한다. 
+
 }
 
 
