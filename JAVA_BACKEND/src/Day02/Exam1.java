@@ -30,5 +30,7 @@ public class Exam1 {
         short svalue = (short)ivalue;
         byte bvalue = (byte)svalue;             
 
+        System.out.println(((Object)fvalue).getClass().getName());
+
     } // main end 
 } // class end 

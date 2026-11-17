@@ -4,7 +4,7 @@ import java.util.Scanner;;
 
 public class Practice4 {
     public static void main(String[] args) {
-Scanner scan = new Scanner(System.in);
+// Scanner scan = new Scanner(System.in);
  /*[문제 1] Scanner를 이용해 두 개의 점수(int)를 입력받아 총점을 계산하세요.
 총점이 90점 이상이면 '성공'을, 그렇지 않으면 '실패'를 출력하는 프로그램을 작성하시오.
 입력 예시:
@@ -268,12 +268,16 @@ viewer: '콘텐츠 조회만 가능합니다.'
 입력 예시:
 연도를 입력하세요: 2024
 출력 예시: 2024년은 윤년입니다. */
+//13 
 
-//13.
-        // System.out.print("연도를 입력하세요 : ");
-        // int 연도 = scan.nextInt();
-        // if(연도%4==0 && 연도%100!=0 || 연도%400==0){System.out.println(연도+"년은 윤년입니다.");}
-        // else{System.out.println(연도+"년은 윤년이 아닙니다.");}
+        // Scanner scc = new Scanner(System.in);
+        // System.out.print("년도를 입력하세요 : ");
+        // int year = scc.nextInt();
+        // if((year % 4 == 0 && year % 100 !=0) || year % 400 == 0){
+        //     System.out.printf("%d년은 윤년입니다." , year);
+        // }else{
+        //     System.out.printf("%d년은 윤년이 아닙니다." , year);
+        // }
 
 /*[문제 14] Scanner를 이용해 서로 다른 세 개의 정수를 입력받아, 오름차순(작은 수부터 큰 수 순서)으로 정렬하여 출력하는 프로그램을 작성하시오.
 입력 예시:
